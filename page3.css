@@ -79,7 +79,7 @@ body {
     background-image: linear-gradient(to bottom, #000435 0%, #000435 22%, white 22%, white 100%);
     }
 
-    /*.type1{
+   /*.type1{
     width: 60%;
     display: block;
     margin: 0px auto;
@@ -92,19 +92,6 @@ body {
     transform: translate(-10%,-10%);
     border-radius: 50%;
 }
-
-/*.type3{
-   width: 0%;
-   display: none;
-   margin: 0px auto;
-}*/
-.type4{
-    width: 0%;
-    position: absolute;
-    top: 11%;
-    left:39.5%;
-    transform: translate(-10%,-10%);
- }
  
  p2 {
     font-family: Arial;
