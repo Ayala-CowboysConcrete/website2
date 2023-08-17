@@ -1,0 +1,248 @@
+
+body {
+    background:rgb(255, 255, 255);
+}
+/*.type1{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+}*/
+.type2{
+    width: 10%;
+    position: absolute;
+    top: 0%;
+    left:30%;
+    transform: translate(-10%,-10%);
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+
+.container{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+.container img{
+    width: 50%;
+} 
+
+.container .text{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 450px;
+    top: 390px;
+    font-size: 50px;
+    transform: translate(-50, -50);
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+button1 {
+    position: absolute;
+    left: 37%;
+    top: 80%;
+    size: 6;
+    transform: translate(-50, -50);
+    background-color: #8c0000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: arial;
+}
+
+
+button2 {
+    position: absolute;
+    right: 38.5%;
+    top: 80%;
+    size: 6;
+    transform: translate(-50, -50);
+    background-color: #8c0000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: arial;
+}
+
+button3 {
+    position: absolute;
+    left: 29.25%;
+    top: 80%;
+    size: 6;
+    transform: translate(-50, -50);
+    background-color: #8c0000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: arial;
+}
+
+button4 {
+    position: absolute;
+    right: 28.5%;
+    top: 80%;
+    size: 6;
+    transform: translate(-50, -50);
+    background-color: #8c0000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.btn {
+    transition: all 0.4s;
+}
+
+.btn:hover {
+transform: scale(1.3);
+}
+
+
+
+
+ 
+ 
+ @media screen and (max-width: 481px) {
+    button3 {
+        position: absolute;
+        left: 36%;
+        top: 62.5%;
+        size: 6;
+        transform: translate(-50, -50);
+        background-color: #8c0000; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: arial;
+    }
+    button1 {
+        position: absolute;
+        left: 15.25%;
+        top: 72.5%;
+        size: 6;
+        transform: translate(-50, -50);
+        background-color: #8c0000; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: arial;
+    }
+   
+   
+    button2 {
+        position: absolute;
+        right: 37.5%;
+        top: 82%;
+        size: 6;
+        transform: translate(-50, -50);
+        background-color: #8c0000; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: arial;
+        max-width: 100%;
+    }
+
+    button4 {
+        position: absolute;
+        right: 30%;
+        top: 91.5%;
+        size: 4;
+        transform: translate(-50, -50);
+        background-color: #8c0000; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: arial;
+        max-width: 100%;
+    }
+ 
+    .container .text{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        left: 0.5px;
+        top: 200px;
+        font-size: 50px;
+        transform: translate(-50, -50);
+        text-align: center;
+        font-family: 'Times New Roman';
+    }
+    /*.type1{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+ }*/
+ .type2{
+    width: 10%;
+    position: absolute;
+    top: 30%;
+    left:30%;
+    transform: translate(-10%,-10%);
+ }
+ 
+ 
+ *{
+ padding: 0;
+ margin: 0;
+ box-sizing:border-box;
+ }
+ 
+ 
+ .container{
+    width: 100%;
+    height: 10%;
+    position: relative;
+ }
+ 
+ 
+ .container img{
+    width: 70%;
+    left: 20.5%;
+    bottom: 100px;
+ }
+ 
+ }
+
+  
+
+
+
+
